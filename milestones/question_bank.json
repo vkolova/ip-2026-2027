@@ -1,0 +1,680 @@
+[
+  {
+    "model": "questions.category",
+    "pk": 1,
+    "fields": {
+      "name": "География"
+    }
+  },
+  {
+    "model": "questions.category",
+    "pk": 2,
+    "fields": {
+      "name": "История"
+    }
+  },
+  {
+    "model": "questions.category",
+    "pk": 3,
+    "fields": {
+      "name": "Наука"
+    }
+  },
+  {
+    "model": "questions.category",
+    "pk": 4,
+    "fields": {
+      "name": "Технологии"
+    }
+  },
+  {
+    "model": "questions.category",
+    "pk": 5,
+    "fields": {
+      "name": "Изкуство и литература"
+    }
+  },
+  {
+    "model": "questions.category",
+    "pk": 6,
+    "fields": {
+      "name": "Спорт"
+    }
+  },
+  {
+    "model": "questions.choicequestion",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "text": "Коя е столицата на Австралия?"
+    }
+  },
+  {
+    "model": "questions.choicequestion",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "text": "Кой е най-големият океан на Земята?"
+    }
+  },
+  {
+    "model": "questions.choicequestion",
+    "pk": 3,
+    "fields": {
+      "category": 2,
+      "text": "В кой град се провеждат първите съвременни олимпийски игри?"
+    }
+  },
+  {
+    "model": "questions.choicequestion",
+    "pk": 4,
+    "fields": {
+      "category": 2,
+      "text": "Кой владетел приема християнството като официална религия в България?"
+    }
+  },
+  {
+    "model": "questions.choicequestion",
+    "pk": 5,
+    "fields": {
+      "category": 3,
+      "text": "Кой е химичният символ на златото?"
+    }
+  },
+  {
+    "model": "questions.choicequestion",
+    "pk": 6,
+    "fields": {
+      "category": 3,
+      "text": "Коя е най-голямата планета в Слънчевата система?"
+    }
+  },
+  {
+    "model": "questions.choicequestion",
+    "pk": 7,
+    "fields": {
+      "category": 4,
+      "text": "Кой създава програмния език Python?"
+    }
+  },
+  {
+    "model": "questions.choicequestion",
+    "pk": 8,
+    "fields": {
+      "category": 4,
+      "text": "Какво означава HTTP статус код 404?"
+    }
+  },
+  {
+    "model": "questions.choicequestion",
+    "pk": 9,
+    "fields": {
+      "category": 5,
+      "text": "Кой е авторът на трагедията „Хамлет“?"
+    }
+  },
+  {
+    "model": "questions.choicequestion",
+    "pk": 10,
+    "fields": {
+      "category": 5,
+      "text": "Кой рисува „Мона Лиза“?"
+    }
+  },
+  {
+    "model": "questions.choicequestion",
+    "pk": 11,
+    "fields": {
+      "category": 6,
+      "text": "Коя държава печели първото световно първенство по футбол?"
+    }
+  },
+  {
+    "model": "questions.choicequestion",
+    "pk": 12,
+    "fields": {
+      "category": 6,
+      "text": "В кой спорт думата „любов“ означава резултат нула?"
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 1,
+    "fields": {
+      "question": 1,
+      "text": "Сидни",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 2,
+    "fields": {
+      "question": 1,
+      "text": "Мелбърн",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 3,
+    "fields": {
+      "question": 1,
+      "text": "Канбера",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 4,
+    "fields": {
+      "question": 1,
+      "text": "Пърт",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 5,
+    "fields": {
+      "question": 2,
+      "text": "Атлантическият океан",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 6,
+    "fields": {
+      "question": 2,
+      "text": "Индийският океан",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 7,
+    "fields": {
+      "question": 2,
+      "text": "Тихият океан",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 8,
+    "fields": {
+      "question": 2,
+      "text": "Северният ледовит океан",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 9,
+    "fields": {
+      "question": 3,
+      "text": "Париж",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 10,
+    "fields": {
+      "question": 3,
+      "text": "Атина",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 11,
+    "fields": {
+      "question": 3,
+      "text": "Лондон",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 12,
+    "fields": {
+      "question": 3,
+      "text": "Рим",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 13,
+    "fields": {
+      "question": 4,
+      "text": "Хан Аспарух",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 14,
+    "fields": {
+      "question": 4,
+      "text": "Княз Борис I",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 15,
+    "fields": {
+      "question": 4,
+      "text": "Цар Симеон I",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 16,
+    "fields": {
+      "question": 4,
+      "text": "Цар Калоян",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 17,
+    "fields": {
+      "question": 5,
+      "text": "Ag",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 18,
+    "fields": {
+      "question": 5,
+      "text": "Au",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 19,
+    "fields": {
+      "question": 5,
+      "text": "Fe",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 20,
+    "fields": {
+      "question": 5,
+      "text": "Zn",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 21,
+    "fields": {
+      "question": 6,
+      "text": "Земята",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 22,
+    "fields": {
+      "question": 6,
+      "text": "Сатурн",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 23,
+    "fields": {
+      "question": 6,
+      "text": "Юпитер",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 24,
+    "fields": {
+      "question": 6,
+      "text": "Нептун",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 25,
+    "fields": {
+      "question": 7,
+      "text": "Джеймс Гослинг",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 26,
+    "fields": {
+      "question": 7,
+      "text": "Гуидо ван Росум",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 27,
+    "fields": {
+      "question": 7,
+      "text": "Брендън Айк",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 28,
+    "fields": {
+      "question": 7,
+      "text": "Бярне Строуструп",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 29,
+    "fields": {
+      "question": 8,
+      "text": "Успешна заявка",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 30,
+    "fields": {
+      "question": 8,
+      "text": "Няма достъп",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 31,
+    "fields": {
+      "question": 8,
+      "text": "Ресурсът не е намерен",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 32,
+    "fields": {
+      "question": 8,
+      "text": "Грешка в сървъра",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 33,
+    "fields": {
+      "question": 9,
+      "text": "Уилям Шекспир",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 34,
+    "fields": {
+      "question": 9,
+      "text": "Чарлз Дикенс",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 35,
+    "fields": {
+      "question": 9,
+      "text": "Оскар Уайлд",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 36,
+    "fields": {
+      "question": 9,
+      "text": "Джордж Оруел",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 37,
+    "fields": {
+      "question": 10,
+      "text": "Микеланджело",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 38,
+    "fields": {
+      "question": 10,
+      "text": "Рафаело",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 39,
+    "fields": {
+      "question": 10,
+      "text": "Леонардо да Винчи",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 40,
+    "fields": {
+      "question": 10,
+      "text": "Винсент ван Гог",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 41,
+    "fields": {
+      "question": 11,
+      "text": "Бразилия",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 42,
+    "fields": {
+      "question": 11,
+      "text": "Италия",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 43,
+    "fields": {
+      "question": 11,
+      "text": "Аржентина",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 44,
+    "fields": {
+      "question": 11,
+      "text": "Уругвай",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 45,
+    "fields": {
+      "question": 12,
+      "text": "Тенис",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 46,
+    "fields": {
+      "question": 12,
+      "text": "Волейбол",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 47,
+    "fields": {
+      "question": 12,
+      "text": "Бадминтон",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.answeroption",
+    "pk": 48,
+    "fields": {
+      "question": 12,
+      "text": "Голф",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "questions.numericquestion",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "text": "През колко държави преминава река Дунав?",
+      "correct_answer": 10
+    }
+  },
+  {
+    "model": "questions.numericquestion",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "text": "С колко държави граничи България?",
+      "correct_answer": 5
+    }
+  },
+  {
+    "model": "questions.numericquestion",
+    "pk": 3,
+    "fields": {
+      "category": 2,
+      "text": "През коя година завършва Втората световна война?",
+      "correct_answer": 1945
+    }
+  },
+  {
+    "model": "questions.numericquestion",
+    "pk": 4,
+    "fields": {
+      "category": 2,
+      "text": "През коя година пада Берлинската стена?",
+      "correct_answer": 1989
+    }
+  },
+  {
+    "model": "questions.numericquestion",
+    "pk": 5,
+    "fields": {
+      "category": 3,
+      "text": "Колко хромозоми обикновено има една човешка телесна клетка?",
+      "correct_answer": 46
+    }
+  },
+  {
+    "model": "questions.numericquestion",
+    "pk": 6,
+    "fields": {
+      "category": 3,
+      "text": "Приблизително колко километра изминава светлината за една секунда?",
+      "correct_answer": 300000
+    }
+  },
+  {
+    "model": "questions.numericquestion",
+    "pk": 7,
+    "fields": {
+      "category": 4,
+      "text": "През коя година е представен първият iPhone?",
+      "correct_answer": 2007
+    }
+  },
+  {
+    "model": "questions.numericquestion",
+    "pk": 8,
+    "fields": {
+      "category": 4,
+      "text": "Колко различни цифри използва двоичната бройна система?",
+      "correct_answer": 2
+    }
+  },
+  {
+    "model": "questions.numericquestion",
+    "pk": 9,
+    "fields": {
+      "category": 5,
+      "text": "През коя година е публикуван за първи път романът „1984“ на Джордж Оруел?",
+      "correct_answer": 1949
+    }
+  },
+  {
+    "model": "questions.numericquestion",
+    "pk": 10,
+    "fields": {
+      "category": 5,
+      "text": "Колко завършени симфонии композира Лудвиг ван Бетовен?",
+      "correct_answer": 9
+    }
+  },
+  {
+    "model": "questions.numericquestion",
+    "pk": 11,
+    "fields": {
+      "category": 6,
+      "text": "Колко играчи от един отбор са на терена в началото на футболен мач?",
+      "correct_answer": 11
+    }
+  },
+  {
+    "model": "questions.numericquestion",
+    "pk": 12,
+    "fields": {
+      "category": 6,
+      "text": "Колко кръга има олимпийският символ?",
+      "correct_answer": 5
+    }
+  }
+]
